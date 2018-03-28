@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    browser: false,
+    browser: true,
     es6: true
   },
   extends: "eslint:recommended",
@@ -8,7 +8,7 @@ module.exports = {
     sourceType: "module"
   },
   rules: {
-    indent: ["error", 4],
+    indent: ["error", 2],
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "double"],
     semi: ["error", "always"]
